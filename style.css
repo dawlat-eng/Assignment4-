@@ -53,6 +53,15 @@ body {
     max-width: 1170px;
 }
 
+.navigation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+}
  .navigation h2 {
     float: left;
     color: #ff305b;
